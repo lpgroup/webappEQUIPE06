@@ -61,7 +61,7 @@ elif choice == "Dúvidas e Respostas":
     with colDR2:
         st.write("Nº TOTAL de dúvidas RESPONDIDAS:")
         st.info(NregDf06R)
-    st.subheader('EQUIPE 01:')
+    st.subheader('EQUIPE 06:')
     st.warning('Dúvida(s) Enviada(s)')
     st.code(df06D['duvida']) 
     st.info('Resposta do(a) TUTOR(A):')
